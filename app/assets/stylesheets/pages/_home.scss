@@ -1,1 +1,431 @@
-// Specific CSS for your home-page
+/* line 1, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_banner.scss */
+.banner {
+  background-size: cover;
+  height: calc(50vh);
+}
+
+/* line 6, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_banner.scss */
+.banner-paralax {
+  background: linear-gradient(70deg, rgba(15, 12, 124, 0.91) 0, rgba(146, 204, 203, 0.91) 100%), url("https://images.unsplash.com/photo-1504259804616-eda856c0149a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d865cad2743955d669ac850593138155&auto=format&fit=crop&w=1650&q=80") no-repeat center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 14, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_banner.scss */
+.banner-paralax_team {
+  background: linear-gradient(70deg, rgba(21, 20, 63, 0.91) 0, rgba(21, 20, 63, 0.91) 100%), url("https://images.unsplash.com/photo-1504259804616-eda856c0149a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d865cad2743955d669ac850593138155&auto=format&fit=crop&w=1650&q=80") no-repeat center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 1, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_title.scss */
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 800px;
+  line-height: 38px;
+  font-weight: lighter;
+}
+
+/* line 11, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_title.scss */
+.title-no_sub {
+  margin-bottom: 50px;
+}
+
+/* line 15, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_title.scss */
+.title-banner {
+  max-width: 800px;
+  padding: 0px 30px;
+}
+
+/* line 20, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_title.scss */
+.title__main {
+  font-size: 40px;
+  color: #15133F;
+  letter-spacing: 4.3px;
+  font-weight: bold;
+  margin-bottom: 33.5px;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+/* line 30, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_title.scss */
+.title__main-team {
+  font-size: 52px;
+  color: white;
+}
+
+/* line 36, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_title.scss */
+.title__sub {
+  font-size: 20px;
+  color: #090909;
+}
+
+/* line 41, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_title.scss */
+.title__sub-about {
+  font-size: 25px;
+  color: #090909;
+  margin-top: 25px;
+  color: white;
+  line-height: 57px;
+  font-weight: lighter;
+}
+
+/* line 50, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_title.scss */
+.line {
+  width: 60px;
+  border-top: 6px solid #92CCCC;
+  height: 10px;
+}
+
+/* line 56, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_title.scss */
+.line-white {
+  border-top: 6px solid white;
+}
+
+/* line 1, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_wrapper.scss */
+.wrapper {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 9, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_wrapper.scss */
+.wrapper-white {
+  background-color: white;
+  padding: 80px;
+}
+
+/* line 14, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_wrapper.scss */
+.wrapper-gray {
+  background-color: #EEF0F2;
+  opacity: 40%;
+  padding: 80px;
+}
+
+/* line 20, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_wrapper.scss */
+.wrapper-green {
+  background-color: #C1E2E3;
+  opacity: 50%;
+}
+
+/* line 25, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_wrapper.scss */
+.wrapper-paralax_modern {
+  background: linear-gradient(100deg, rgba(193, 226, 227, 0.83) 0, rgba(193, 226, 227, 0.88) 100%), url("https://images.unsplash.com/photo-1492546643178-96d64f3fd824?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c8b0ca61fa643ce14689caf7a5bd84d&auto=format&fit=crop&w=1651&q=80") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 1, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_paralax.scss */
+.paralax-banner {
+  background: linear-gradient(70deg, rgba(15, 12, 124, 0.91) 0, rgba(146, 204, 203, 0.91) 100%), url("https://images.unsplash.com/photo-1504259804616-eda856c0149a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d865cad2743955d669ac850593138155&auto=format&fit=crop&w=1650&q=80") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+/* line 8, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_paralax.scss */
+.paralax-modern {
+  background: linear-gradient(100deg, rgba(146, 204, 203, 0.24) 0, rgba(146, 204, 203, 0.24) 100%), url("https://images.unsplash.com/photo-1492546643178-96d64f3fd824?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c8b0ca61fa643ce14689caf7a5bd84d&auto=format&fit=crop&w=1651&q=80") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+/* line 1, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_button.scss */
+.button_green {
+  color: white !important;
+  padding: 20px 50px !important;
+  border-radius: 45px !important;
+  background: #92CCCC !important;
+  opacity: .9;
+  transition: background 1s ease !important;
+}
+/* line 9, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_button.scss */
+.button_green:hover {
+  opacity: 1 !important;
+  color: white !important;
+}
+
+/* line 1, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  max-width: 450px;
+}
+
+/* line 10, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.block-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/* line 18, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.block__icon {
+  height: 40px;
+  margin-bottom: 25px;
+}
+
+/* line 23, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.block__icon_data {
+  max-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+/* line 31, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.top-buffer {
+  margin: 20px 0px;
+}
+
+/* line 35, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.block__icon_data-medium {
+  height: 50px;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+/* line 41, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.block__icon_data-larger {
+  height: 80px;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+/* line 47, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.block__icon_data-largest {
+  height: 95px;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+/* line 53, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.block__title {
+  font-size: 30px;
+  text-align: center;
+  color: #15133F;
+  font-weight: bold;
+  margin-bottom: 38px;
+}
+
+/* line 61, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.block__text {
+  text-align: center;
+  color: #15133F;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+/* line 69, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_block.scss */
+.right {
+  margin-bottom: 30px;
+}
+
+/* line 1, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_profile.scss */
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+/* line 11, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_profile.scss */
+.profile__photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 2px 26px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* line 20, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_profile.scss */
+.profile__name {
+  color: #15133F;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* line 26, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_profile.scss */
+.profile__description {
+  font-weight: lighter;
+  max-width: 450px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #090909;
+}
+
+/* line 34, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_profile.scss */
+.profile__position {
+  color: #15133F;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* line 1, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form {
+  background-color: transparent;
+  color: black;
+  max-height: 570px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+/* line 10, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* line 14, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form__content input, .form__content select {
+  margin-bottom: 18px;
+  margin-top: 5px;
+  font-weight: lighter;
+  color: black;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #EEF0F2;
+}
+/* line 24, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form__content textarea {
+  margin-bottom: 18px;
+  margin-top: 5px;
+  font-weight: lighter;
+  color: black;
+  padding: 10px;
+  font-size: 14px;
+  padding-left: 5px;
+  border: 1px solid #EEF0F2;
+}
+/* line 35, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form__content label {
+  font-weight: lighter;
+  font-size: 15px;
+}
+/* line 40, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form__content .form__message {
+  padding: 40px 0px;
+  margin-bottom: 50px;
+  color: black;
+  font-weight: lighter;
+}
+
+/* line 48, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form_text {
+  color: black;
+  font-size: 20px;
+}
+
+/* line 53, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form__submit {
+  background-color: blue;
+  width: 100%;
+  padding: 11px;
+  margin-top: 45px;
+  opacity: 0.8;
+}
+/* line 59, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form__submit:hover {
+  opacity: 1;
+}
+
+/* line 64, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form__button {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+}
+
+/* line 70, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_form.scss */
+.form-group {
+  margin: 0px;
+}
+
+/* line 1, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_dropdown.scss */
+select {
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  border: white;
+  border-bottom: 2px solid #92CCCC;
+  font-size: 15px;
+  color: black;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+/* line 13, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/components/_dropdown.scss */
+option {
+  padding: 15px;
+}
+
+/* line 4, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/pages/_home.scss */
+.team_photo {
+  padding: 60px 0px;
+  width: 100%;
+  max-width: 800px;
+  min-width: 350px;
+}
+
+/* line 11, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/pages/_home.scss */
+.icon {
+  align: center;
+}
+
+/* line 15, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/pages/_home.scss */
+.form_holder {
+  width: 70%;
+  min-width: 350px;
+  max-width: 600px;
+  min-height: 750px;
+  background-color: white;
+  margin-top: 30px;
+  box-shadow: 0 2px 26px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+/* line 27, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/pages/_home.scss */
+.icon_alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 33, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/pages/_home.scss */
+.form_holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 17, /Users/thomaspatton2/Documents/web_development/Projects/stacker/app/assets/stylesheets/application.scss */
+.container-fluid {
+  padding: 0px !important;
+}
+
